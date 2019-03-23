@@ -46,36 +46,49 @@
 		    </div>
 		  </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+    <nav class="navbar navbar-expand-lg  ftco_navbar " id="ftco-navbar">
 	    <div class="container d-flex align-items-center">
-	    	<a class="navbar-brand" href="index.html">FAKULTAS TEKNIK</a>
+	    	<a class="navbar-brand" href="layout.html">FAKULTAS TEKNIK</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Beranda</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">Profil</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">Program Studi</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">E Dokumen</a></li>
-	        	<li class="nav-item"><a href="#" class="nav-link">Berita</a></li>
-	          <li class="nav-item"><a href="#" class="nav-link">Pedoman Akadamik</a></li>
-	        </ul>
-	      </div>
+					<div class="container">
+						<div class="row">
+							<ul class="navbar-nav ml-auto">
+								<li><a href="layout.html" id="drop1"><i class="glyphicon glyphicon-home"></i> Beranda</a></li>
+								<li class="dropdown">
+									<a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil <b class="caret"></b></a>
+									<ul class="dropdown-menu" aria-labelledby="drop1">
+										<li ><a id="drop1" href="Sambutan.html">Sambutan</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+                    <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program Studi <b class="caret"></b></a>
+                    <ul class="dropdown-menu" aria-labelledby="drop1">
+                      <li ><a id="drop1" href="TeknikIndustri.html">Teknik Industri</a></li>
+                      <li ><a id="drop1" href="TeknikInformatika.html">Teknik Informatika</a></li>
+                      <li ><a id="drop1" href="teknikSipil.html">Teknik Sipil</a></li>
+                    </ul>
+                  </li>
+								<li ><a href="E Dokumen.html" id="drop1">E Dokumen</a></li>
+								<li><a href="#" id="drop1">Berita</a></li>
+								<li><a href="Pedoman.html" id="drop1">Pedoman Akademik</a></li>
+							
+								<li class="login">
+								<a href="login.html" id="drop1" target="_blank"><i class="fas fa-door-open"></i> Login</a>
+							</ul>
+							
+						
+						</div>
+					</div>
+				</div>
+			
 	    </div>
 	  </nav>
     <!-- END nav -->
     
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-									<div class="alert alert-info" style="margin-top: 15px">
-							<a href="#"><i class="fa fa-info fa-fw"></i> INFORMASI LOWONGAN KERJA </a>				</div>
-							</div>
-			</div>
-		</div>
-		
-		<section class="ftco-section ftco-no-pt ftc-no-pb">
+    <section class="ftco-section ftco-no-pt ftc-no-pb">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 order-md-last wrap-about py-5 wrap-about bg-light">
@@ -98,10 +111,7 @@
 				</div>
 			</div>
 		</section>
-		
-				
 
-    
 
 		
     <footer class="ftco-footer ftco-bg-dark ftco-section">
